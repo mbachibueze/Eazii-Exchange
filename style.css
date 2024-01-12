@@ -699,6 +699,9 @@ ul li{
   }
  }
  @media only screen and (max-width: 450px){
+  .faqs h1{
+    font-size: 5vw;
+   }
   .faqs{
     width: 100%;
   }
