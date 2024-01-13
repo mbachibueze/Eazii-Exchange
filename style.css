@@ -15,18 +15,6 @@ a{
 
 /* Navigation */
 
-.navigation{
-  padding: 1.1% 3%;
-  position: fixed;
-  background-color: white;
-  width: 94%;
-}
-.nav-bar{
-  padding-top: 5px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 .link{
   display: flex;
   align-items: center;
@@ -41,14 +29,20 @@ ul li{
 .nav-bar img{
   width: 150px;
 }
-
-.nav-icon{
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-size: 20px;
-  color: purple;
+.navigation{
+  margin: 0;
+  position: fixed;
+  width: 100%;
 }
+.nav-bar{
+  padding: 1.1% 3%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
 .toggle-btn{
   padding-right: 10px;
   font-size: 24px;
@@ -58,13 +52,12 @@ ul li{
 
 /* dropdown menu */
 .dropdown_menu{
-  display: none;
-  padding: 10px 0;
-  /* position: absolute; */
-  /* right: 2rem; */
-  /* top: 60px; */
   height: 0;
-  background-color: #ffffff;
+  display: none;
+  position: absolute;
+  width: 100%;
+  top: 60px;
+  background-color: #5c3c3c;
   overflow: hidden; 
   transition: height cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transition: ease 0.7s;
@@ -75,7 +68,8 @@ ul li{
   align-items: center;
   justify-content: start;
 }
-.open{
+
+.dropdown_menu.open{
   height: 200px;
 }
 
@@ -670,6 +664,7 @@ ul li{
  .faqs h1{
   text-align: center;
   font-size: 3vw;
+  padding-bottom: 10px;
  }
  .faq-container{
   width: 70%;
