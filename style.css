@@ -175,6 +175,9 @@ ul li{
     font-size: 8.5vw;
     line-height: 8vw;
   }
+  .hero{
+    padding: 8vw 7vw;
+  }
   .hero-img img{
     width: 90vw;
   }
