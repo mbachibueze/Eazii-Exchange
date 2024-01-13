@@ -177,6 +177,7 @@ ul li{
   }
   .hero{
     top: 100px;
+    padding: 5vw 7vw 5vw;
   }
   .hero-img img{
     width: 90vw;
