@@ -8,3 +8,10 @@ toggleBtn.onclick = function(){
 
   toggleBtnIcon.classList = isOpen ? "fas fa-xmark" : "fas fa-bars"
 }
+
+const toggleAns = document.querySelector(".fa-angle-down")
+const toggleAnsIcon = document.querySelector(".faq-question i")
+
+toggleAns.onclick = function(){
+  
+}
