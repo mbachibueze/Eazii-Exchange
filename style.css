@@ -33,7 +33,7 @@ ul li{
 
 .navigation{
   margin: 0;
-  position: sticky;
+  position: fixed;
   width: 100%;
   z-index: 1000;
 }
