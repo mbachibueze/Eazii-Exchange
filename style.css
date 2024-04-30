@@ -714,7 +714,7 @@ ul li{
                -5px -5px 10px #ffffff;
  }
  .faq-open{
-  height: 40px;
+  height: min-content;
   opacity: 1;
   padding: 10px;
  }
