@@ -702,17 +702,21 @@ ul li{
   font-size: 1vw;
  }
  .faq_ans{
+  position: relative;
   height: 0;
-  padding: 10px;
   opacity: 0;
-  background-color: #b68e8e;
+  background-color: white;
   overflow: hidden; 
   transition: height cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transition: ease 0.7s;
+  background: #ffffff;
+  box-shadow:  5px 5px 10px #d1d1d1,
+               -5px -5px 10px #ffffff;
  }
  .faq-open{
   height: 40px;
   opacity: 1;
+  padding: 10px;
  }
 
  .faq-col{
