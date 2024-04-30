@@ -11,7 +11,14 @@ toggleBtn.onclick = function(){
 
 const toggleAns = document.querySelector(".fa-angle-down")
 const toggleAnsIcon = document.querySelector(".faq-question i")
+const faqAns = document.querySelector(".faq_ans")
+const body = document.querySelector("body")
+
+
 
 toggleAns.onclick = function(){
-  
+  faqAns.classList.toggle('faq-open')
+  const isOpen = faqAns.classList.contains('faq-open')
+
+  toggleAnsIcon.classList = isOpen ? 'fas fa-angle-up' : 'fas fa-angle-down'
 }
